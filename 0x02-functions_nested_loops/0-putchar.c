@@ -1,17 +1,23 @@
 #include "main.h"
-/**
- * print_alphabet - prints all alphabets in lowercase.
- * Return: On success 1.
- */
-void print_alphabet(void)
-{
-	char i;
+	/**
+	 * main - print _putchar
+	 * is written by mbah
+	 * Return: 0
+	 */
 
-	for (i = 'a'; i <= 'z'; i++)
+
+	int main(void)
 	{
-	_putchar(i);
-	}
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
+	return (0);
+	}
 
-}
 
