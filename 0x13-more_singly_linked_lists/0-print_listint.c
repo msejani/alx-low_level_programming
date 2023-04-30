@@ -1,16 +1,12 @@
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
 #include "lists.h"
 
 /**
- * main - check the code
- * 
- * Return: Always 0.
+ * print_listint - prints all the elements of a linked list
+ * @h: linked list of type listint_t to print
+ *
+ * Return: number of nodes
  */
-size_t print_listint(const listint_t *h);
-
-int main(void)
+size_t print_listint(const listint_t *h)
 {
 	size_t num = 0;
 
@@ -20,6 +16,6 @@ int main(void)
 		num++;
 		h = h->next;
 	}
-          printf("%d--->\n" , h->next;
-	return(num);
-	}
+
+	return (num);
+}
